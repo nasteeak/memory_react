@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+    background-color: #9FB2AC;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: "Playpen Sans", cursive;
+}
+
+header {
+    background-color: #7a958c;
+    padding: 20px 15px;
+}
+h1 {
+    text-align: center;
+    color: #871222;
+    font-size: 50px;
+    margin: 70px 0;
+}
+footer {
+    background-color: #7a958c;
+    padding: 20px 15px;
+}
+.copy-text {
+    color: rgb(0, 139, 16);
+    text-align: center;
+}
